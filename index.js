@@ -10,8 +10,8 @@
 // AppRegistry.registerComponent(appName, () => App);
 
 import {AppRegistry} from 'react-native';
-import Appnew from './Appnew';
-import App from './App';
+import AppIMCR from './AppIMCr'
+import AppGas from './Appgas'
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => AppIMCR);
